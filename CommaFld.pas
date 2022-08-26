@@ -3,7 +3,7 @@
 
 unit CommaFld;
 
-interface
+interfaceX111111111111
 
   Function GetFieldFromString(buf: AnsiString;Fld:Integer;var len:Integer):Integer; Overload;
   Function GetFieldFromString(buf: String; Fld:Integer; var len:Integer):Integer; Overload;
@@ -548,7 +548,7 @@ Begin
     s := strn [i];
     val (s, chiff [i], res);
   End;
-  If TheNumber = 0 Then Result := 'zéro'
+  If TheNumber = 0 Then Result := 'zÃ©ro'
   Else If nc = 1 Then Result := Cvingt [chiff [nc]]
   Else If nc > 1 Then Begin
     a_cent (chiff [nc - 1], chiff [nc], Result);
