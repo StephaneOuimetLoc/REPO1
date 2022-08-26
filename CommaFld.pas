@@ -11,7 +11,7 @@ interfaceX111111111111
   Function NumberInWordsFr(TheNumber: Integer): String;
   Function NumberInWordsEs(TheNumber: Integer): String;
 
-implementation
+implementation iiiiiiiiiiiiiiiiii
 
 { Scan 'buf' to find the field number 'fld' (from 1 to nn)
 	returns the position of the first byte of that
