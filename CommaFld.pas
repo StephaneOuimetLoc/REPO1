@@ -3,7 +3,7 @@
 
 unit CommaFld;
 
-interfaceX111111111111
+11111111111111111111111111111111111111111111111111111111111
 
   Function GetFieldFromString(buf: AnsiString;Fld:Integer;var len:Integer):Integer; Overload;
   Function GetFieldFromString(buf: String; Fld:Integer; var len:Integer):Integer; Overload;
