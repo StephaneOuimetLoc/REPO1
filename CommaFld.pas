@@ -3,7 +3,7 @@
 
 unit CommaFld;
 
-22222222222222
+33
 
   Function GetFieldFromString(buf: AnsiString;Fld:Integer;var len:Integer):Integer; Overload;
   Function GetFieldFromString(buf: String; Fld:Integer; var len:Integer):Integer; Overload;
